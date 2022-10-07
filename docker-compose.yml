@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    rwa:
+        build:
+            context: ./node16.17.0-img
+        volumes:
+            - ./cypress_rwa:/cypress-realworld-app
+        ports:
+            - "3000:3000"
+            - "3001:3001"
+            
