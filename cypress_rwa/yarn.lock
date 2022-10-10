@@ -4093,10 +4093,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@smartesting/gravity-data-collector@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/@smartesting/gravity-data-collector/-/gravity-data-collector-2.1.1.tgz"
-  integrity sha512-WMKB5y2n8l5OXZf0H0Cq5WOHCpRRKiFWtj5pc1gKsphOXOM7V/Bo1Vy5YxlQ4pHHWtV7FzzNk+vt+i9p3WLizg==
+"@smartesting/gravity-data-collector@^2.1.10":
+  version "2.1.10"
+  resolved "https://registry.npmjs.org/@smartesting/gravity-data-collector/-/gravity-data-collector-2.1.10.tgz"
+  integrity sha512-tyXm8S0n4z31+Emo+3NAvVXme+H1OqlSJQWghuUGAqfQPykufr2T2OMAb90u99QFAzJHv2+IlteBk7/+HddURA==
   dependencies:
     "@cypress/unique-selector" "^0.4.4"
     "@types/uuid" "^8.3.4"
@@ -6451,10 +6451,15 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001254, caniuse-lite@^1.0.30001400:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001254:
   version "1.0.30001416"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001416.tgz#29692af8a6a11412f2d3cf9a59d588fcdd21ce4c"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001416.tgz"
   integrity sha512-06wzzdAkCPZO+Qm4e/eNghZBDfVNDsCgw33T27OwBH9unE9S478OYw//Q2L7Npf/zBzs7rjZOszIFQkwQKAEqA==
+
+caniuse-lite@^1.0.30001400:
+  version "1.0.30001418"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001418.tgz#5f459215192a024c99e3e3a53aac310fc7cf24e6"
+  integrity sha512-oIs7+JL3K9JRQ3jPZjlH6qyYDp+nBTCais7hjh0s+fuBwufc7uZ7hPYMXrDOJhV360KGMTcczMRObk0/iMqZRg==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -8062,9 +8067,9 @@ electron-to-chromium@^1.3.564, electron-to-chromium@^1.3.830:
   integrity sha512-y0RorqmExFDI4RjLEC6j365bIT5UAXf9WIRcknvSFHVhbC/dRnCgJnPA3DUUW6SCC85QGKEafgqcHJ6uPdEP1Q==
 
 electron-to-chromium@^1.4.251:
-  version "1.4.274"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.274.tgz#74369ac6f020c3cea7c77ec040ddf159fe226233"
-  integrity sha512-Fgn7JZQzq85I81FpKUNxVLAzoghy8JZJ4NIue+YfUYBbu1AkpgzFvNwzF/ZNZH9ElkmJD0TSWu1F2gTpw/zZlg==
+  version "1.4.276"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.276.tgz#17837b19dafcc43aba885c4689358b298c19b520"
+  integrity sha512-EpuHPqu8YhonqLBXHoU6hDJCD98FCe6KDoet3/gY1qsQ6usjJoHqBH2YIVs8FXaAtHwVL8Uqa/fsYao/vq9VWQ==
 
 elliptic@^6.5.3:
   version "6.5.4"
